@@ -1,0 +1,4 @@
+Extension
+=========
+
+Rubedo Extension example
