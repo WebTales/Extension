@@ -1,0 +1,19 @@
+{# your block template should always extend the generic one #}
+{% extends "@Root/block.html.twig" %} 
+
+{% block mainContent %}
+
+{# Place your own twig code inside the mainContent block tag #}
+
+<ul class="ch-grid" class="hidden">   
+    <li>
+        <div class="ch-item ch-img-1">
+            <div class="ch-info">
+                <h3>{{  mytext }}</h3>
+                <p>by WebTales <a href="#" class="clikme">View the website</a></p>
+            </div>
+        </div>
+    </li>
+</ul>
+					
+{% endblock %}
