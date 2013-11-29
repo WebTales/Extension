@@ -1,15 +1,19 @@
 Extension
 =========
 
-This Rubedo example extension shows how to :
+A Rubedo Extension is structured as a ZF2 module.
+
+This example extension shows how to :
 
 - build a fresh new theme, coming with its css, js and images files
-- build a new functionnal block
+- build a new functionnal block, called myblock, with funny ccs3 effects
+- override an existing block : Menu
 
 You can install an extension :
 
 - from the source code :
 1) drop the source code in the extensions directory
+2) manually add your extension in config/application.config.php, in $extensionsArray
 
 - using composer :
 1) copy composer.extension.json.dist to composer.extension.json
