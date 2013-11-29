@@ -6,7 +6,7 @@ A Rubedo Extension is structured as a ZF2 module.
 This example extension shows how to :
 
 - build a fresh new theme, coming with its css, js and images files
-- build a new functionnal block, called myblock, with funny ccs3 effects
+- build a new functionnal block, called myblock, with funny css3 effects
 - override an existing block : Menu
 
 You can install an extension :
