@@ -9,15 +9,10 @@ This example extension shows how to :
 - build a new functionnal block, called myblock, with funny css3 effects
 - override an existing block : Menu
 
-You can install an extension :
+You can install this extension using composer :
 
-- from the source code :
-1) drop the source code in the extensions directory
-2) manually add your extension in config/application.config.php, in $extensionsArray
-
-- using composer :
-1) copy composer.extension.json.dist to composer.extension.json
-2) add your extension repository in composer.extension.json
+- copy composer.extension.json.dist to composer.extension.json
+- add your extension repository in composer.extension.json
 {
 	"name": "rubedo/extensions",
 	"require": {
@@ -36,7 +31,7 @@ You can install an extension :
 		"vendor-dir": "extensions"
 	}
 }
-3) run install-extensions.bat or install-extensions.sh depending on your OS
+- run install-extensions.bat or install-extensions.sh depending on your OS
 
 End the installation process by cleaning the Rubedo cache (from the back-office in the supervision module or by manually cleaning cache/config directory)
 
