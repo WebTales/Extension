@@ -13,25 +13,27 @@ You can install this extension using composer :
 
 - copy composer.extension.json.dist to composer.extension.json
 - add your extension repository in composer.extension.json
-{
-	"name": "rubedo/extensions",
-	"require": {
-		"webtales/myextension": "dev-master"
-	},
-	"require-dev": {},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "git://github.com/WebTales/Extension.git"
+
+	{
+		"name": "rubedo/extensions",
+		"require": {
+			"webtales/myextension": "dev-master"
+		},
+		"require-dev": {},
+		"repositories": [
+			{
+				"type": "vcs",
+				"url": "git://github.com/WebTales/Extension.git"
+			}
+		],
+		"minimum-stability": "stable",
+		"config": {
+			"process-timeout": 600,
+			"vendor-dir": "extensions"
 		}
-	],
-	"minimum-stability": "stable",
-	"config": {
-		"process-timeout": 600,
-		"vendor-dir": "extensions"
 	}
-}
-- run install-extensions.bat or install-extensions.sh depending on your OS
+
+- run rubedo.bat or ./rubedo.sh depending on your OS
 
 End the installation process by cleaning the Rubedo cache (from the back-office in the supervision module or by manually cleaning cache/config directory)
 
