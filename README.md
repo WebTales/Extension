@@ -14,6 +14,7 @@ You can install this extension using composer :
 - copy composer.extension.json.dist to composer.extension.json
 - add your extension repository in composer.extension.json
 
+```json
 	{
 		"name": "rubedo/extensions",
 		"require": {
@@ -32,6 +33,7 @@ You can install this extension using composer :
 			"vendor-dir": "extensions"
 		}
 	}
+```
 
 - run rubedo.bat or ./rubedo.sh depending on your OS
 
