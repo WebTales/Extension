@@ -3,7 +3,7 @@
  * Extend any Rubedo Service or create your own
  */
 
-namespace Myextension\Service;
+namespace MyExtension\Service;
 use Rubedo\Update\Install;
 
 class Myservice extends Install

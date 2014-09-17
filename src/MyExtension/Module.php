@@ -1,5 +1,5 @@
 <?php
-namespace Myextension;
+namespace MyExtension;
 
 class Module
 {

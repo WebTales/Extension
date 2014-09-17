@@ -3,7 +3,7 @@
  * Your block controller
  */
 
-namespace Myextension\Blocks\Controller;
+namespace MyExtension\Blocks\Controller;
 
 use Rubedo\Services\Manager;
 use Rubedo\Collection\AbstractCollection;

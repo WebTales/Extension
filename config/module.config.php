@@ -6,7 +6,7 @@ return array(
      */
     'controllers' => array(
         'invokables' => array(
-            'Myextension\\Blocks\\Controller\\Myblock' => 'Myextension\\Blocks\\Controller\\MyblockController'
+            'MyExtension\\Blocks\\Controller\\Myblock' => 'MyExtension\\Blocks\\Controller\\MyblockController'
         )
     ),
         
@@ -15,7 +15,7 @@ return array(
      */
     'service_manager' => array(
         'invokables' => array(
-            'Myservice' => 'Myextension\\Service\\Myservice',
+            'Myservice' => 'MyExtension\\Service\\Myservice',
         )
     ),
         
@@ -24,7 +24,7 @@ return array(
      */
     'templates' => array(
         'namespaces' => array(
-            'Myextension' => realpath(__DIR__ . '/../templates')
+            'MyExtension' => realpath(__DIR__ . '/../templates')
         ),
         'overrideThemes' => array(
             'default' => realpath(__DIR__ . '/../theme/default')
@@ -36,10 +36,12 @@ return array(
      */
     'blocksDefinition' => array(
         'myblock' => array(
-            'controller' => 'Myextension\\Blocks\\Controller\\Myblock',
+            'controller' => 'MyExtension\\Blocks\\Controller\\Myblock',
             'maxlifeTime' => 60,
             'definitionFile' => realpath(__DIR__ . "/blocks/") . '/myblock.json'
         )
-    )
-        
+    ),
+    'namespaces_api' => array(
+        'MyExtension',
+    ),
 );
