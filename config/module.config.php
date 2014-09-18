@@ -27,10 +27,10 @@ return array(
             'MyExtension' => realpath(__DIR__ . '/../templates')
         ),
         'overrideThemes' => array(
-            'default' => realpath(__DIR__ . '/../theme/default')
+            'default' => realpath(__DIR__ . '/../theme/default'),
         )
     ),
-        
+
     /**
      * Your block definition : controller and back-office json configuration file
      */
@@ -40,6 +40,14 @@ return array(
             'maxlifeTime' => 60,
             'definitionFile' => realpath(__DIR__ . "/blocks/") . '/myblock.json'
         )
+    ),
+    'templates' => array(
+        'themes' => array(
+            'new' => array(
+                'label' => 'New',
+                'basePath' => realpath(__DIR__ . '/../theme/new'),
+            ),
+        ),
     ),
     'namespaces_api' => array(
         'MyExtension',
