@@ -1,0 +1,1 @@
+alert('My amazing JS');
