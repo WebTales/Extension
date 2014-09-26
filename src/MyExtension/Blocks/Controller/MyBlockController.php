@@ -23,10 +23,10 @@ class MyblockController extends AbstractController
 
     public function indexAction ()
     {
-        $template = Manager::getService('FrontOfficeTemplates')->getFileThemePath("@Myextension/blocks/myBlock.html.twig");
+        $template = Manager::getService('FrontOfficeTemplates')->getFileThemePath("@MyExtension/blocks/myBlock.html.twig");
         $basePath = $this->getRequest()->getBasePath() . '/';
         $js = array(
-            $basePath . Manager::getService('FrontOfficeTemplates')->getFileThemePath("@Myextension/js/myjavascript.js"),
+            $basePath . Manager::getService('FrontOfficeTemplates')->getFileThemePath("@MyExtension/js/myjavascript.js"),
         );
         $css = array(
         );
