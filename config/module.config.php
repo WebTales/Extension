@@ -1,6 +1,15 @@
 <?php
 return array(
 
+    /**
+     * Your block definition : back-office json configuration file
+     */
+    'blocksDefinition' => array(
+        'helloWorld' => array(
+            'maxlifeTime' => 60,
+            'definitionFile' => realpath(__DIR__ . "/blocks/") . '/helloWorld.json'
+        )
+    ),
 
     /**
      * Template definitions

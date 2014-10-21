@@ -1,0 +1,23 @@
+{
+	"type":"Hello world",
+	"description":"Simple test block added by extension",
+	"configBasique":{
+		"title":"Hello world",
+		"bType":"helloWorld",
+		"flex":1,
+		"champsConfig":{
+			"simple":[
+
+			],
+			"avance":[
+
+			]
+		},
+		"configBloc":[
+
+		]
+	},
+	"category":"MyExtension",
+	"bType":"helloWorld",
+	"id":"54466ad9f05c1d1c09000038"
+}
