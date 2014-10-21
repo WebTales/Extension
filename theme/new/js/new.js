@@ -1,1 +1,1 @@
-alert('My amazing JS');
+console.log("test new js");
