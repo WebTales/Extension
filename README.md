@@ -18,7 +18,7 @@ You can install this extension using composer :
 	{
 		"name": "rubedo/extensions",
 		"require": {
-			"webtales/myextension": "dev-master"
+			"webtales/myextension": "dev-v3-dev"
 		},
 		"require-dev": {},
 		"repositories": [
