@@ -39,4 +39,4 @@ You can install this extension using composer :
 
 End the installation process by cleaning the Rubedo cache (from the back-office in the supervision module or by manually cleaning cache/config directory)
 
-For more details about building blocks please read the following guide : https://rubedo.atlassian.net/wiki/display/RBT/Adding+block+types+to+your+extension
+For more details about building blocks please read the following guide : http://docs.rubedo-project.org/en/homepage/develop/extensions 
