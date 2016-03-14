@@ -24,7 +24,7 @@ return array(
                     '/css/new.css',
                 ),
                 'js' => array(
-                    '/js/new.js',
+                    '/js/blockConfig.js',
                 ),
             ),
         ),

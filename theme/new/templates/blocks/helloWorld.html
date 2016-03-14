@@ -1,1 +1,5 @@
-<h2>Hello world</h2>
+<div ng-controller="HelloWorldController as helloCtrl">
+    <h2>Hello world</h2>
+    <p>Displaying message from API : {{helloCtrl.apiMessage}}</p>
+    <p>Using variable from the controller : {{helloCtrl.foo}}</p>
+</div>
